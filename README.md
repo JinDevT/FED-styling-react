@@ -73,7 +73,7 @@ ex) import'../../styles/utils.scss' 이런 식으로 거슬러 올라갈 때 유
  - scss 파일 경로가 어디에 위차하더라도 , 앞부분에 상대경로를 입력 할 필요 없이 styles 디렉토리 기준 절대경로로 불러올 수 있다.
  ex) ```@import 'utils.scss'; ```
  
- #### classNames
+ #### 2-4 classNames
  - classNames 는 CSS 클랫그를 조건부로 설정 할 때 매우 유용한 라이브러리입니다.
  - classNames 설치
  ```npm install classnames``` -> npm , ```yarn add classNames``` -> yarn
@@ -85,6 +85,6 @@ ex) import'../../styles/utils.scss' 이런 식으로 거슬러 올라갈 때 유
  ```
  이렇게하면 위 엘리먼트의 클래스로는 highlighted 값이 true 이나 false 에 따라 highlighted 라는 클래스가 적용될 것이고, 추가적으로 theme 으로 전달받은 문자열이 그대로 클래스에 적용될 것이다.
 
-##### classNames 를 CSS Module 과 함쎄 쓸 때
+##### classNames 를 CSS Module 과 함께 쓸 때
 - classNames를 불러올때 ```classnames/bind``` 를 사용하면 사전에 미리 ```styles``` 에서 받아와서 사용하게끔 설정해두고
 ```cx('class1', 'class2')``` 형태로 사용 할 수있게 된다.
