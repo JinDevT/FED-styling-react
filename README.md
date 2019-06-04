@@ -32,12 +32,12 @@ body {
 }
 ```
 ### 2-1. Sass 라이브러리 설치
-``` npm install node-sass``` -> npm
+``` npm install node-sass``` -> npm, 
 ``` yarn add node-sass``` -> yarn
 
 ### 2-2. utils 함수 분리하기.
 - 자주 사용 될 수도 있는 Sass 변수 및 믹스인을 따로 파일로 분리하여 사용한다.
-- .scss 파일에서 다른 scss 파일을 불로올 땐 **@import** 구문을 사용해야 한다.
+- .scss 파일에서 다른 scss 파일을 불러올 땐 **@import** 구문을 사용해야 한다.
 
 ### 2-3 sass-loader 설정 커스텀마이징
 - Sass 를 사용 할 때 필수적인 작업은 아니지만, 해두면 좋을 수도 있는 작업이다.(프로젝트에 디렉토리를 깊숙한 구조를 만들 때 유용함!
